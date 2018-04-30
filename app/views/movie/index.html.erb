@@ -1,0 +1,22 @@
+<div>
+	<table class="table table-striped">
+	  <thead>
+	    <tr>
+	      <th scope="col">Nom</th>
+	      <th scope="col">Date de parution</th>
+	      <th scope="col">Réalisateur</th>
+	    </tr>
+	  </thead>
+
+
+	  <tbody>
+		<% @movies_list.each do |movie| %>
+	    <tr>
+	      <td><%=movie.title%></td>
+	      <td><%=movie.release_year%></td>
+	      <td><%=movie.director%></td>
+	    </tr>
+	    <% end%>
+	  </tbody>
+	</table>
+</div>
