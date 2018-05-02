@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Movie Database
 
-Things you may want to cover:
+We had to display a homepage that gives an index of the movies we created. <br/>
 
-* Ruby version
+For this, we created an application that we produced on heroku, you can find it at the following address: https://young-castle-90661.herokuapp.com/ <br/>
 
-* System dependencies
+* We have created a movie model with a ```title```, a ```release_year``` and a ```directory```.
 
-* Configuration
+* There is a seed that contains 5 movies in the application as well as an index that displays all the elements of the model using ```movies_controller```.
 
-* Database creation
+* In order to recover all the movies, we have a variable @movies which is an array containing all the movies
 
-* Database initialization
+* Then we made sure that a ```Director``` could make several movies so that our app shows the movies that the directors did.
 
-* How to run the test suite
+## Now 
 
-* Services (job queues, cache servers, search engines, etc.)
+You can check the code of the application on github or clone it if the instructions ask for it, in this case do not forget to type ```bundle install``` once in the repo folder.
 
-* Deployment instructions
+## Team 
 
-* ...
+Realized by Cyril M. & Pacôme P.
